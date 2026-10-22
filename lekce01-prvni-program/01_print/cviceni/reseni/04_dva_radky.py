@@ -7,3 +7,4 @@
 
 print("Dnes")
 print("je")
+#vypíše dve slová na riadku

@@ -3,4 +3,5 @@
 
 # Cyklem vypiš pětkrát text "PyLadies".
 
-
+for text in range(1, 5):
+    print("PyLadies")

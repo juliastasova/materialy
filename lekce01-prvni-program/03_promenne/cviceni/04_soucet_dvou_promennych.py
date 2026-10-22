@@ -3,4 +3,6 @@
 
 # Vytvoř dvě proměnné s čísly a vypiš jejich součet.
 
-
+jeden = 1
+dva = 2
+print(jeden+dva)

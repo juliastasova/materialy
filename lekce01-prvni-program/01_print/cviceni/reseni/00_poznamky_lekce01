@@ -1,0 +1,26 @@
+print("Hello world")
+print(1, 2, 3 )
+print("Mám", 2, "nohy")
+#úvodzovky môžu byť hore aj dole, slová od čísel oddeľovať čiarkami
+print("=" * 30)
+#zopakovať veľakrát
+print("Ahoj" + "kamoška")
+# znak + nedá medzeru (i.e., sčítaj tieto hodnoty)
+#note that numbers, if in quotes only get written, while if there is no quotes, mathematical equations will be performed
+print(17 // 5)
+# double slash will perform division and forget about the remainder (zvyšok)
+print(17 % 5) #dá zvyšok, ktorý ostane z delenia, check this
+print(2 ** 8)#druhá mocnina, check this
+
+
+# Téma premenné
+meno = "Júlia"
+print("Ahoj", meno)
+# premenná môže byť čokoľvek a tiež môže mať v sebe čokoľvek
+# funkcie vo fialovom, premenné sivé a hodnoty modrý
+meno = input("Ako sa voláš?")
+print("Ahoj", meno)#tu nevypíše ahoj, pretože čaká na nejaký input
+#ak je slovo v úvodzovkách, tak je to hodnota. ak je chyba, VS Code to podčiarkne, alebo napíše is not defined
+
+
+#doma - pozrieť, či musím každý riadok treba spúšťať sám alebo

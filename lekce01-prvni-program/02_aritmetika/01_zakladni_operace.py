@@ -36,3 +36,5 @@ print("ha" * 3)     # hahaha  text se opakuje
 
 # Číslo a text jsou totiž různé datové typy. Proto později u input()
 # budeme text převádět na číslo (int / float), než s ním počítáme.
+
+print(2837 % 10)

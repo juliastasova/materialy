@@ -3,4 +3,4 @@
 
 # Vypiš součet všech čísel od 1 do 10.
 
-
+print(sum(range(11)))

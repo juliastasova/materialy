@@ -8,3 +8,12 @@
 barva = "zelená"
 
 
+barva = "zelená"
+if barva == "červená":
+    print("Stůj")
+elif barva == "oranžová":
+    print("Připrav se")
+elif barva == "zelená":
+    print("Jeď")
+else:
+    print("Neznámý signál")

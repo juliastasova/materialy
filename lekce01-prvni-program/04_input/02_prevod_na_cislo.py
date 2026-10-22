@@ -31,3 +31,11 @@ strana = float(input("Zadej stranu čtverce v cm: "))
 print("Obvod čtverce je", 4 * strana, "cm")
 
 # Pozn.: desetinná čísla se vypisují s tečkou, takže třeba 12.0.
+
+jmeno = input("Jak se jmenuješ? ")
+vek = int(input("Kolik ti je let? "))
+print("Ahoj,", jmeno, "- za rok ti bude", vek + 1, "let")
+
+# font - prevedie text na číslo
+# float - prevedie na desatinné číslo
+# pretože funkcia input vždy vracia len text

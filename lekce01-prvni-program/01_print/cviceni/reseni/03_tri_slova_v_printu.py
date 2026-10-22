@@ -4,4 +4,5 @@
 # Vypiš na jeden řádek tři slova oddělená čárkou uvnitř print,
 #    třeba: Ahoj krásný světe
 
-print("Ahoj", "krásný", "světe")
+print("Ahoj", "krásný", "světe")#toto nepridá žiadnu čiarku medzi reálne slová v termináli
+

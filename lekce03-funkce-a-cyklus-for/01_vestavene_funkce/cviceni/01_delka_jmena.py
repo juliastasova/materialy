@@ -3,4 +3,5 @@
 
 # Ulož si do proměnné jmeno své jméno a vypiš, kolik má písmen.
 
-
+meno = input("meno?")
+print("tvoje meno je", len(meno), "znakov dlhé")

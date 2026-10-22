@@ -4,3 +4,11 @@
 # Vypiš na obrazovku svoje jméno.
 
 print("Anna")
+
+print("Juli")
+
+
+
+
+# # # #  skúška úloh z hodiny, než si pozriem riešenia
+print("")

@@ -8,3 +8,7 @@
 #     ***
 
 
+vyska = int(input("zadaj výšku trjhlníku: "))
+for x in range(1, 1+vyska):
+    print("*" * x)
+    

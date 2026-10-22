@@ -6,3 +6,9 @@
 #     (Faktoriál z 5 je 120.)
 
 
+
+x = int(input("num: "))
+start = 1
+for x in range(1, x + 1):
+    start = start * x
+print(start)
