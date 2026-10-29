@@ -13,9 +13,13 @@ permissions:
 
 jobs:
   kontrola:
-    # PR z forků (např. účastnic) nemají přístup k secretu, bez něj se
-    # soukromé public-pages nenaklonuje.
-    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
+    # Jen v původním repu: forky (účastnice) nemají secret PUBLIC_PAGES_TOKEN,
+    # bez něj se soukromé public-pages nenaklonuje a push do forku by končil
+    # chybou a e-mailem. PR z forků běží v kontextu tohohle repa, ale secret
+    # taky nedostanou, proto i porovnání head.repo.
+    if: >-
+      github.repository == 'pyladiesprague/materialy' &&
+      (github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -39,7 +43,7 @@ jobs:
 
   web:
     needs: kontrola
-    if: github.event_name == 'push'
+    if: github.repository == 'pyladiesprague/materialy' && github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - name: Spustit import na webu
