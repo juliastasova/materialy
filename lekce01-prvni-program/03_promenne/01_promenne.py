@@ -36,4 +36,4 @@ oblibena_barva = "modrá"
 print(mesto, oblibena_barva)
 
 
-# Vizuální vysvětlení proměnných najdeš v obrázku promenne_vizualizace.png.
+# (Vizuální vysvětlení proměnných najdeš v obrázku promenne_vizualizace.png.)
