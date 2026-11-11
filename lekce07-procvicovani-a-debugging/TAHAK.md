@@ -47,8 +47,8 @@ Traceback (most recent call last):
 ZeroDivisionError: division by zero
 ```
 
-Spodní patro je místo, kde to spadlo. Horní patro je řádek, který jsi
-psala ty, a tam bývá i chyba – tady se do funkce poslala nula.
+Spodní patro je místo, kde to spadlo. Horní patro je místo, odkud se
+funkce zavolala, a tam bývá i chyba – tady se do funkce poslala nula.
 
 ## Časté chyby
 

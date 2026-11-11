@@ -1,6 +1,8 @@
 # Cvičení 2 – Debugger
 # Spusť soubor (Run) a zahraj si pár her. Chyby jsou dvě a ta druhá
 # se ukáže jen někdy. Najdi je debuggerem a oprav.
+# Druhou nejsnáz uvidíš, až opravíš tu první: pak se schválně trefuj
+# až pátým tipem – z nápověd už budeš vědět, kde číslo je.
 
 # Hádání čísla znáš ze čtvrté lekce. Počítač si vylosuje číslo
 # od 1 do 20 a ty hádáš. Po každém tipu napíše "Moc velké." nebo

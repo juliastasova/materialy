@@ -39,7 +39,7 @@ vypis_prumer("Únor", 0, 0)
 #
 # Spadlo to na řádku 7, ale chyba tam není. Dělení dvou čísel je
 # napsané správně a pro leden fungovalo. Problém vznikl na řádku 16:
-# tam někdo poslal jako počet nulu. To nejvrchnější patro bývá řádek,
-# který jsi psala ty – a tam bývá i chyba.
+# tam někdo poslal jako počet nulu. Nejvrchnější patro ukazuje, odkud
+# se funkce zavolala – a tam bývá i chyba.
 #
 # Změň řádek 16 na vypis_prumer("Únor", 90, 3) a spusť znovu.
